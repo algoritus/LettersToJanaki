@@ -1,0 +1,128 @@
+.letter-form {
+
+    padding:100px 8%;
+
+    background:
+    linear-gradient(
+        180deg,
+        #fff8ee,
+        #faf7f2
+    );
+
+    text-align:center;
+
+}
+
+
+.letter-form h2 {
+
+    font-family:"Playfair Display",serif;
+
+    font-size:3rem;
+
+    color:#6b1f2a;
+
+    margin-bottom:40px;
+
+}
+
+
+
+.letter-form form {
+
+    max-width:650px;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+    background:rgba(255,255,255,.45);
+
+    backdrop-filter:blur(15px);
+
+    padding:40px;
+
+    border-radius:30px;
+
+    border:1px solid rgba(255,255,255,.7);
+
+    box-shadow:0 20px 40px rgba(125,34,53,.12);
+
+}
+
+
+
+.letter-form input,
+.letter-form textarea {
+
+
+    width:100%;
+
+    padding:18px 20px;
+
+    border-radius:15px;
+
+    border:1px solid #ddd;
+
+    font-size:1rem;
+
+    outline:none;
+
+    background:white;
+
+}
+
+
+
+.letter-form textarea {
+
+    height:180px;
+
+    resize:none;
+
+}
+
+
+
+.letter-form input:focus,
+.letter-form textarea:focus {
+
+    border-color:#7d2235;
+
+}
+
+
+
+.letter-form button {
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:50px;
+
+    background:#7d2235;
+
+    color:white;
+
+    font-size:1.1rem;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+
+
+.letter-form button:hover {
+
+    transform:translateY(-3px);
+
+    background:#5c1726;
+
+}

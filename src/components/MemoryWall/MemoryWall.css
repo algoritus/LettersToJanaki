@@ -1,0 +1,146 @@
+.memory-wall {
+
+    padding:100px 8%;
+
+    text-align:center;
+
+    background:
+    linear-gradient(
+        180deg,
+        #faf7f2,
+        #fff4dc
+    );
+
+}
+
+
+
+.memory-wall h2 {
+
+    font-family:"Playfair Display",serif;
+
+    font-size:3rem;
+
+    color:#6b1f2a;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.memory-wall > p {
+
+    color:#666;
+
+    font-size:1.2rem;
+
+    margin-bottom:50px;
+
+}
+
+
+
+.memory-grid {
+
+    max-width:1100px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(280px,1fr));
+
+    gap:30px;
+
+}
+
+
+
+.memory-card {
+
+    background:
+    rgba(255,255,255,.45);
+
+
+    backdrop-filter:blur(15px);
+
+
+    border:
+    1px solid rgba(255,255,255,.6);
+
+
+    border-radius:25px;
+
+
+    padding:30px;
+
+
+    text-align:left;
+
+
+    box-shadow:
+
+    0 20px 40px rgba(125,34,53,.12);
+
+
+    transition:.35s ease;
+
+
+}
+
+
+
+.memory-card:hover {
+
+    transform:translateY(-8px);
+
+}
+
+
+
+.memory-card h3 {
+
+    color:#7d2235;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.memory-card p {
+
+    color:#555;
+
+    line-height:1.7;
+
+}
+
+
+
+.memory-card small {
+
+    color:#999;
+
+}
+
+
+
+@media(max-width:600px){
+
+.memory-wall{
+
+padding:70px 20px;
+
+}
+
+
+.memory-wall h2{
+
+font-size:2.2rem;
+
+}
+
+}

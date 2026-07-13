@@ -1,0 +1,77 @@
+.quote-section {
+  padding: 120px 20px;
+  background: #faf7f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.quote-container {
+  max-width: 900px;
+  text-align: center;
+}
+
+
+.quote-icon {
+  font-size: 70px;
+  color: #8b2635;
+  opacity: 0.35;
+  font-family: "Playfair Display", serif;
+}
+
+
+.quote-container h2 {
+
+  margin-top: 20px;
+
+  font-family: "Playfair Display", serif;
+
+  font-size: clamp(35px,5vw,65px);
+
+  line-height: 1.25;
+
+  font-weight: 600;
+
+  color: #4b1c1c;
+
+  letter-spacing: -1px;
+
+}
+
+
+.quote-container p {
+
+  margin-top: 35px;
+
+  font-family: Inter, sans-serif;
+
+  font-size: 18px;
+
+  color: #7b675c;
+
+}
+
+
+@media(max-width:600px){
+
+.quote-section{
+  padding:80px 20px;
+}
+
+
+.quote-container h2{
+  font-size:32px;
+}
+
+
+.quote-icon{
+  font-size:50px;
+}
+
+
+.quote-container p{
+  font-size:15px;
+}
+
+}

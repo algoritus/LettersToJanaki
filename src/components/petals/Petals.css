@@ -1,0 +1,61 @@
+.petals {
+    position: fixed;
+    inset: 0;
+    pointer-events:none;
+    overflow:hidden;
+    z-index:10;
+}
+
+
+.petals span {
+
+    position:absolute;
+
+    font-size:25px;
+
+    opacity:0.35;
+
+    animation: fall 12s linear infinite;
+
+}
+
+
+.petals span:nth-child(1){
+    left:10%;
+    animation-delay:0s;
+}
+
+.petals span:nth-child(2){
+    left:30%;
+    animation-delay:3s;
+}
+
+.petals span:nth-child(3){
+    left:55%;
+    animation-delay:6s;
+}
+
+.petals span:nth-child(4){
+    left:75%;
+    animation-delay:2s;
+}
+
+.petals span:nth-child(5){
+    left:90%;
+    animation-delay:8s;
+}
+
+
+@keyframes fall {
+
+0%{
+top:-10%;
+transform:rotate(0deg);
+}
+
+100%{
+top:110%;
+transform:rotate(360deg);
+}
+
+}

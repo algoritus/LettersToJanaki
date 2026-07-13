@@ -1,0 +1,31 @@
+.filters{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:16px;
+margin:30px 0 40px;
+flex-wrap:wrap;
+}
+
+.filters button{
+padding:12px 24px;
+border:none;
+border-radius:999px;
+background:white;
+color:#6b1d2f;
+font-size:15px;
+font-weight:600;
+cursor:pointer;
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+transition:all .3s ease;
+}
+
+.filters button:hover{
+transform:translateY(-3px);
+box-shadow:0 14px 30px rgba(0,0,0,.12);
+}
+
+.filters button.active{
+background:#6b1d2f;
+color:white;
+}

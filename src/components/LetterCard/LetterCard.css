@@ -1,0 +1,20 @@
+.letter-form {
+
+position:relative;
+
+z-index:100;
+
+}
+
+
+.letter-form input,
+.letter-form textarea,
+.letter-form button {
+
+position:relative;
+
+z-index:101;
+
+pointer-events:auto;
+
+}
