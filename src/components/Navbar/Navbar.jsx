@@ -8,14 +8,27 @@ export default function Navbar() {
         💌 Letters to Janaki
       </div>
 
-      <ul>
-        <li>Home</li>
-        <li>Letters</li>
-        <li>Songs</li>
-        <li>Timeline</li>
-        <li>Gallery</li>
-      </ul>
+     <ul>
+  <li onClick={() => document.getElementById("home")?.scrollIntoView({behavior:"smooth"})}>
+    Home
+  </li>
 
+  <li onClick={() => document.getElementById("letter")?.scrollIntoView({behavior:"smooth"})}>
+    Letters
+  </li>
+
+  <li onClick={() => document.getElementById("songs")?.scrollIntoView({behavior:"smooth"})}>
+    Songs
+  </li>
+
+  <li onClick={() => document.getElementById("timeline")?.scrollIntoView({behavior:"smooth"})}>
+    Timeline
+  </li>
+
+  <li onClick={() => document.getElementById("gallery")?.scrollIntoView({behavior:"smooth"})}>
+    Gallery
+  </li>
+</ul>
      <button
       onClick={() => {
         document
