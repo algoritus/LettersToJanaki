@@ -3,7 +3,7 @@ import "./App.css";
 import LetterBox from "./components/LetterBox";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
-import Petals from "./components/Petals/Petals";
+import Petals from "./components/petals/Petals";
 import LetterForm from "./components/LetterForm/LetterForm";
 import MemoryWall from "./components/MemoryWall/MemoryWall";
 import Timeline from "./components/Timeline/Timeline";
