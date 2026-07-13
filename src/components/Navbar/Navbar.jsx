@@ -25,9 +25,7 @@ export default function Navbar() {
     Timeline
   </li>
 
-  <li onClick={() => document.getElementById("gallery")?.scrollIntoView({behavior:"smooth"})}>
-    Gallery
-  </li>
+
 </ul>
      <button
       onClick={() => {
